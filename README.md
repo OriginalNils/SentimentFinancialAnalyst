@@ -35,7 +35,7 @@ An advanced financial dashboard that correlates real-time news sentiment with st
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your_username/SentimentFinancialAnalyst.git](https://github.com/your_username/SentimentFinancialAnalyst.git)
+    git clone https://github.com/OriginalNils/SentimentFinancialAnalyst.git
     cd SentimentFinancialAnalyst
     ```
 
