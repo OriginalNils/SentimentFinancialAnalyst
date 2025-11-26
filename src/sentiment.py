@@ -37,17 +37,3 @@ def analyze_sentiment(text):
 
     # 5. Return only the compound score
     return scores['compound']
-
-# --- Test Block ---
-if __name__ == "__main__":
-    # Test with a few examples
-    examples = [
-        "Tesla stock crashes after CEO tweet",  # Should be negative
-        "Apple reports record breaking profits", # Should be positive
-        "Fed announces interest rate decision"   # Should be neutral
-    ]
-    
-    print("--- Sentiment Tests ---")
-    for ex in examples:
-        score = analyze_sentiment(ex)
-        print(f"Text: '{ex}'\nScore: {score}\n")
