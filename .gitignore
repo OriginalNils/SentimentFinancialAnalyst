@@ -1,0 +1,33 @@
+# 1. Python-Kompilate (Bytecode)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 2. Virtuelle Umgebungen (Sehr wichtig!)
+# Ignoriert den Ordner mit den installierten Bibliotheken
+.venv/
+venv/
+env/
+ENV/
+
+# 3. Jupyter Notebook Checkpoints
+# Verhindert, dass Autosaves der Notebooks hochgeladen werden
+.ipynb_checkpoints/
+
+# 4. IDE- und Editor-Einstellungen
+.vscode/
+.idea/
+*.swp
+
+# 5. Betriebssystem-Dateien
+.DS_Store  # Mac
+Thumbs.db  # Windows
+
+# 6. Python Packaging (falls setup.py genutzt wird)
+build/
+dist/
+*.egg-info/
+
+# 7. NLTK Daten (falls lokal gespeichert, optional)
+nltk_data/
